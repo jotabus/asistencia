@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Control de Asistencia V 3.0</title>
+
+    <meta name="description" content="Basado en el desarrollo de Juan Andrés Gonzalez Navarro">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center text-primary mb-2">
+                <p class="h4">Juzgado de Familia de La Serena</p>
+                <p class="h5">Sistema Registro de Asistencia V.3</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-primary">
+                <div class="card-deck">
+                    <div class="card border-primary">
+                        <div class="card-header bg-transparent border-primary h5">
+                            <p>Registro [Ingrese su RUT sin puntos ni guión]</p>
+                        </div>
+                        <div class="card-body display-4 text-center">
+                            <form class="form-inline">
+
+                                <div class="input-group mt-2 mb-2 mr-sm-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">RUT</div>
+                                    </div>
+                                    <input type="text" class="form-control" id="inlineFormInputGroupUsername2"
+                                        placeholder="">
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card border-primary">
+                        <div class="card-header bg-transparent border-primary h5">
+                            <p id="fechaCompleta"></p>
+                        </div>
+                        <div class="card-body display-4 text-center reloj">
+                            <p id="horaCompleta"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
